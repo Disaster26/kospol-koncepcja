@@ -1,0 +1,497 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Samochody dostawcze z Europy Zachodniej, Brzeziny | KOSPOL Auto Handel</title>
+<meta name="description" content="KOSPOL Auto Handel, Brzeziny, ul. Łódzka 47. Samochody dostawcze, osobowe i ciężarowe z Niemiec, Belgii, Holandii i Danii, domki holenderskie, kredyt i leasing, transport aut lawetą.">
+<meta name="robots" content="noindex,nofollow">
+<link rel="icon" href="data:,">
+<link rel="preload" href="fonts/archivo-rdzen.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" href="img/hero-tel-1200.webp" imagesrcset="img/hero-tel-800.webp 800w, img/hero-tel-1200.webp 1200w, img/hero-tel-1600.webp 1600w" imagesizes="100vw" media="(max-width:760px)" fetchpriority="high">
+<link rel="preload" as="image" href="img/hero-1920.webp" imagesrcset="img/hero-1280.webp 1280w, img/hero-1920.webp 1920w, img/hero-2560.webp 2560w, img/hero-3600.webp 3600w" imagesizes="100vw" media="(min-width:761px)" fetchpriority="high">
+<style>
+@font-face{font-family:"Archivo";font-style:normal;font-weight:400 800;font-display:swap;src:url(fonts/archivo-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0,U+00A9,U+00AB,U+00B0,U+00B7,U+00BB,U+00D3,U+00D7,U+00F3,U+2013,U+2018-2019,U+201C-201E,U+2026}
+@font-face{font-family:"Archivo";font-style:normal;font-weight:400 800;font-display:swap;src:url(fonts/archivo-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+:root{--granat:#062E6C;--granat2:#041F4A;--granat3:#0B3D8C;--zolty:#F4C20D;--zolty2:#E0B000;--tekst:#1B2333;--szary:#566074;--jasny:#EEF1F5;--linia:#D8DEE8;--k:min(92vw,1640px);--sk:12deg}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth;scroll-padding-top:76px}
+body{margin:0;font:400 17px/1.6 Archivo,Arial,sans-serif;color:var(--tekst);background:#fff;overflow-x:hidden}
+@media (min-width:1800px){body{font-size:18px}}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+h1,h2,h3{margin:0;font-weight:800;line-height:1.06;letter-spacing:-.015em;color:var(--granat2)}
+h2{font-size:clamp(30px,3.6vw,54px)}
+h3{font-size:clamp(21px,1.6vw,26px);font-weight:700}
+p{margin:0}
+.k{width:var(--k);margin:0 auto}
+/* kreska pod napisem z logo, pochylona jak kursywa KOSPOL */
+.kreska{display:block;width:72px;height:7px;background:var(--zolty);transform:skewX(calc(var(--sk)*-1));margin:18px 0 0}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:54px;padding:0 30px;font:700 17px/1 Archivo,Arial,sans-serif;text-decoration:none;cursor:pointer;border:0;position:relative;isolation:isolate;color:var(--granat2);white-space:nowrap}
+.btn::before{content:"";position:absolute;inset:0;z-index:-1;transform:skewX(calc(var(--sk)*-1));background:var(--zolty);transition:background .2s}
+.btn:hover::before{background:#FFD430}
+.btn-bialy{color:#fff}
+.btn-bialy::before{background:rgba(4,31,74,.55);border:2px solid #fff}
+.btn-bialy:hover::before{background:rgba(4,31,74,.8)}
+.btn-granat{color:#fff}
+.btn-granat::before{background:var(--granat)}
+.btn-granat:hover::before{background:var(--granat3)}
+.tel-znak{width:18px;height:18px;flex:none}
+
+/* naglowek */
+.nag{position:sticky;top:0;z-index:50;background:#fff;border-bottom:1px solid var(--linia)}
+.nag .k{display:flex;align-items:center;justify-content:space-between;height:72px;gap:24px}
+.logo{display:inline-flex;align-items:center;text-decoration:none;flex:none}
+.logo-blok{position:relative;isolation:isolate;padding:7px 18px 9px;color:#fff}
+.logo-blok::before{content:"";position:absolute;inset:0;z-index:-1;background:var(--granat);transform:skewX(calc(var(--sk)*-1))}
+.logo-napis{display:block;font:800 30px/1 Archivo,Arial,sans-serif;letter-spacing:.02em;transform:skewX(calc(var(--sk)*-1))}
+.logo-napis::after{content:"";display:block;height:3px;background:#fff;margin-top:3px}
+.logo-opis{margin-left:16px;font-size:13px;line-height:1.25;color:var(--szary)}
+.logo-opis b{display:block;color:var(--granat2);font-size:14px}
+.menu{display:flex;gap:clamp(18px,1.8vw,34px);font-size:16px;font-weight:600}
+.menu a{text-decoration:none;color:var(--granat2);padding:8px 0;position:relative}
+.menu a::after{content:"";position:absolute;left:0;right:0;bottom:2px;height:3px;background:var(--zolty);transform:skewX(-12deg) scaleX(0);transform-origin:left;transition:transform .2s}
+.menu a:hover::after,.menu a.akt::after{transform:skewX(-12deg) scaleX(1)}
+.nag-tel{min-height:46px;padding:0 22px;font-size:16px}
+.hamb{display:none;background:none;border:0;padding:10px 4px;cursor:pointer;color:var(--granat2);font:700 15px/1 Archivo,Arial,sans-serif;align-items:center;gap:10px}
+.hamb i{display:block;width:24px;height:3px;background:currentColor;box-shadow:0 -7px 0 currentColor,0 7px 0 currentColor;transform:skewX(-12deg)}
+@media (max-width:1180px){.logo-opis{display:none}}
+@media (max-width:1020px){
+ .menu{position:fixed;top:0;right:0;bottom:0;width:min(86vw,360px);flex-direction:column;gap:0;background:#fff;padding:90px 28px 28px;transform:translateX(105%);transition:transform .3s ease;box-shadow:-20px 0 60px rgba(4,31,74,.25);z-index:60}
+ .menu a{font-size:21px;padding:15px 0;border-bottom:1px solid var(--linia)}
+ .menu a::after{display:none}
+ body.otwarte .menu{transform:none}
+ .hamb{display:inline-flex;position:relative;z-index:70}
+ .nag-tel{display:none}
+}
+@media (max-width:420px){.logo-napis{font-size:26px}.nag .k{height:64px}}
+
+/* pierwszy ekran */
+.hero{position:relative;min-height:calc(100svh - 72px);display:flex;color:#fff;background:var(--granat2);overflow:hidden}
+.hero picture,.hero picture img{position:absolute;inset:0;width:100%;height:100%}
+.hero picture img{object-fit:cover;object-position:60% 55%}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(4,31,74,.92) 0%,rgba(4,31,74,.78) 34%,rgba(4,31,74,.18) 64%,rgba(4,31,74,0) 80%)}
+.hero .k{position:relative;z-index:2;display:flex;flex-direction:column;justify-content:center;padding:clamp(48px,7vh,96px) 0 clamp(64px,10vh,120px)}
+.hero-tresc{max-width:min(760px,52vw)}
+.hero-miejsce{font-size:17px;font-weight:600;color:#DCE4F2}
+.hero-miejsce b{color:var(--zolty);font-weight:700}
+.hero h1{color:#fff;font-size:clamp(36px,4.3vw,76px);margin-top:18px;line-height:1.04}
+.hero h1 span{display:block;font-weight:600;font-size:.56em;line-height:1.2;color:#E8EDF6;margin-top:16px;letter-spacing:0}
+.hero .kreska{margin-top:26px}
+.hero-opis{font-size:clamp(17px,1.25vw,21px);line-height:1.55;color:#E3E9F3;margin-top:22px;max-width:620px}
+.hero-cta{display:flex;flex-wrap:wrap;gap:16px 26px;margin-top:34px}
+/* przerywana linia pasa jezdni na dole zdjecia */
+.pas{position:absolute;left:0;right:0;bottom:0;height:12px;z-index:3;background:repeating-linear-gradient(90deg,var(--zolty) 0 64px,transparent 64px 104px)}
+@media (max-width:760px){
+ .hero{min-height:calc(100svh - 64px)}
+ .hero picture img{object-position:50% 100%}
+ .hero::after{background:linear-gradient(180deg,rgba(4,31,74,.95) 0%,rgba(4,31,74,.86) 46%,rgba(4,31,74,.25) 72%,rgba(4,31,74,0) 88%)}
+ .hero .k{justify-content:flex-start;padding:26px 0 84px}
+ .hero-tresc{max-width:none}
+ .hero-miejsce{font-size:15px}
+ .hero h1{font-size:clamp(29px,8.2vw,38px);margin-top:12px}
+ .hero h1 span{font-size:.6em;margin-top:10px}
+ .hero .kreska{margin-top:18px;width:56px;height:6px}
+ .hero-opis{font-size:16px;margin-top:16px}
+ .hero-cta{margin-top:26px;gap:14px 22px}
+ .hero-cta .btn{min-height:50px;padding:0 24px;font-size:16px}
+ .pas{height:9px;background:repeating-linear-gradient(90deg,var(--zolty) 0 44px,transparent 44px 74px)}
+}
+@media (max-width:760px) and (max-height:700px){.hero-opis{font-size:15px;line-height:1.45;margin-top:12px}.hero h1{font-size:28px}.hero h1 span{font-size:.58em}.hero-cta{margin-top:22px}.hero .k{padding-top:20px}}
+
+/* sekcje */
+.sek{padding:clamp(64px,8vw,128px) 0}
+.sek-szara{background:var(--jasny)}
+.naglowek{display:flex;justify-content:space-between;align-items:flex-end;gap:24px 60px;flex-wrap:wrap;margin-bottom:clamp(32px,3.6vw,56px)}
+.naglowek > div{max-width:780px}
+.naglowek p{font-size:clamp(17px,1.2vw,20px);color:var(--szary);max-width:640px}
+
+/* oferta */
+.oferta{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(20px,2vw,36px)}
+.kafel{display:flex;flex-direction:column;background:#fff;text-decoration:none;color:inherit;border-bottom:4px solid var(--granat);transition:transform .25s,box-shadow .25s}
+.kafel:hover{transform:translateY(-4px);box-shadow:0 18px 40px rgba(4,31,74,.14)}
+.kafel-foto{position:relative;overflow:hidden;background:var(--granat2);aspect-ratio:3/2;max-height:335px}
+.kafel-foto img{width:100%;height:100%;object-fit:cover}
+.kafel-tresc{padding:24px 26px 28px;display:flex;flex-direction:column;gap:10px;flex:1}
+.kafel-tresc p{color:var(--szary);font-size:16px}
+.kafel-tresc .dalej{margin-top:auto;padding-top:8px;font-weight:700;color:var(--granat);display:inline-flex;align-items:center;gap:10px}
+.dalej i{display:inline-block;width:26px;height:4px;background:var(--zolty);transform:skewX(-12deg)}
+
+/* przesuwane palcem */
+.suwak{display:flex;gap:18px;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:none;padding-bottom:6px;cursor:grab}
+.suwak::-webkit-scrollbar{display:none}
+.suwak.ciag{cursor:grabbing;scroll-snap-type:none}
+.suwak > *{scroll-snap-align:start;flex:none}
+.strzalki{display:flex;gap:12px}
+.strzalki button{width:52px;height:46px;border:0;background:none;cursor:pointer;position:relative;isolation:isolate;color:var(--granat2)}
+.strzalki button::before{content:"";position:absolute;inset:0;z-index:-1;border:2px solid var(--granat);transform:skewX(-12deg);transition:background .2s}
+.strzalki button:hover::before{background:var(--granat)}
+.strzalki button:hover{color:#fff}
+.strzalki svg{width:20px;height:20px;display:block;margin:auto}
+@media (max-width:760px){
+ .oferta{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:14px;scrollbar-width:none;margin-right:calc((100vw - var(--k))/-2);padding-right:4vw}
+ .oferta::-webkit-scrollbar{display:none}
+ .oferta .kafel{flex:none;width:250px;scroll-snap-align:start}
+ .kafel-tresc{padding:18px 18px 22px}
+ .kafel-tresc p{font-size:15px}
+ .strzalki{display:none}
+}
+
+/* przed sprzedaza - mocna sekcja */
+.sprawdzone{background:var(--granat);color:#fff;position:relative;overflow:hidden}
+.sprawdzone h2{color:#fff}
+.sprawdzone .naglowek p{color:#C9D5EA}
+.spr-uklad{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:clamp(36px,5vw,96px);align-items:center}
+.lista{list-style:none;margin:0;padding:0;display:grid;gap:0}
+.lista li{display:grid;grid-template-columns:44px 1fr;gap:4px 18px;padding:22px 0;border-top:1px solid rgba(255,255,255,.18)}
+.lista li:last-child{border-bottom:1px solid rgba(255,255,255,.18)}
+.lista li::before{content:"";grid-row:span 2;width:26px;height:8px;margin-top:11px;background:var(--zolty);transform:skewX(-12deg)}
+.lista b{font-size:clamp(19px,1.4vw,23px);font-weight:700}
+.lista span{color:#C9D5EA;font-size:16px}
+.salon{position:relative;justify-self:end;width:100%;max-width:800px}
+.salon img{width:100%}
+.salon figcaption{margin-top:12px;font-size:15px;color:#C9D5EA}
+.salon::before{content:"";position:absolute;left:-18px;top:-18px;width:44%;height:44%;background:var(--zolty);transform:skewX(-12deg);z-index:0}
+.salon img{position:relative;z-index:1}
+@media (max-width:900px){.spr-uklad{grid-template-columns:1fr}.salon{justify-self:start;max-width:560px}.salon::before{left:-10px;top:-10px}}
+
+/* trasa */
+.trasa-uklad{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:clamp(36px,5vw,96px);align-items:start}
+.trasa-tekst p+p{margin-top:16px}
+.trasa-tekst p{color:var(--szary)}
+.trasa-tekst .licencja{margin-top:26px;padding:18px 22px;background:var(--jasny);color:var(--granat2);font-weight:600;font-size:16px;border-left:6px solid var(--zolty)}
+.droga{position:relative;padding:8px 0 0}
+.droga ol{list-style:none;margin:0;padding:0;position:relative}
+.droga ol::before{content:"";position:absolute;left:21px;top:20px;bottom:20px;width:6px;background:repeating-linear-gradient(180deg,var(--granat) 0 22px,transparent 22px 36px)}
+.droga li{position:relative;display:flex;align-items:center;gap:22px;padding:13px 0;font-size:clamp(19px,1.5vw,24px);font-weight:700;color:var(--granat2)}
+.droga li::before{content:"";flex:none;width:48px;height:30px;background:#fff;border:3px solid var(--granat);transform:skewX(-12deg);position:relative;z-index:1}
+.droga li small{display:block;font-size:15px;font-weight:500;color:var(--szary)}
+.droga li.cel::before{background:var(--zolty);border-color:var(--zolty)}
+.droga li.cel{font-size:clamp(22px,1.8vw,28px)}
+.lawety{margin-top:30px;max-width:600px}
+.lawety figcaption{font-size:15px;color:var(--szary);margin-top:10px}
+@media (max-width:900px){.trasa-uklad{grid-template-columns:1fr}}
+
+/* plac - galeria */
+.plac .suwak figure{margin:0;height:clamp(170px,22vw,335px)}
+.plac .suwak img{height:100%;width:auto;max-width:none;cursor:zoom-in}
+.plac .suwak figcaption{display:none}
+
+/* firma */
+.firma-uklad{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(36px,5vw,96px);align-items:center}
+.firma-tekst p{font-size:clamp(17px,1.2vw,19px)}
+.firma-tekst p+p{margin-top:16px}
+.cytat{margin-top:28px;font-size:clamp(20px,1.6vw,26px);font-weight:700;color:var(--granat);line-height:1.3;padding-left:26px;position:relative}
+.cytat::before{content:"";position:absolute;left:0;top:4px;bottom:4px;width:7px;background:var(--zolty);transform:skewX(-12deg)}
+.firma-uklad .cytat{margin-top:0}
+.galeria-nag{margin:clamp(48px,5vw,80px) 0 22px;align-items:center}
+.galeria-nag h3{color:var(--granat2)}
+@media (max-width:900px){.firma-uklad{grid-template-columns:1fr}}
+
+/* kontakt */
+.kontakt{background:var(--granat2);color:#fff}
+.kontakt h2{color:#fff}
+.kon-uklad{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:clamp(36px,5vw,96px)}
+.dane{display:grid;gap:22px;font-size:18px;margin-top:30px}
+.dane div span{display:block;font-size:14px;color:#9FB2D3;margin-bottom:2px}
+.dane a{text-decoration:none;font-weight:700}
+.dane a:hover{text-decoration:underline}
+.dane .duzy{font-size:clamp(26px,2.2vw,36px);font-weight:800;color:var(--zolty)}
+.mapa{margin-top:34px;aspect-ratio:16/10;background:#0A2C63;position:relative;display:flex;align-items:center;justify-content:center;color:#9FB2D3;font-size:15px}
+.mapa iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.form{background:#fff;color:var(--tekst);padding:clamp(24px,3vw,48px)}
+.form h3{color:var(--granat2);font-size:clamp(23px,1.8vw,30px)}
+.form > p{color:var(--szary);margin-top:8px;font-size:16px}
+.pola{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:24px}
+.pola label{display:grid;gap:6px;font-size:15px;font-weight:600;color:var(--granat2)}
+.pola .cala{grid-column:1/-1}
+.pola input,.pola select,.pola textarea{font:400 17px/1.4 Archivo,Arial,sans-serif;color:var(--tekst);border:1.5px solid #C3CCDA;background:#fff;padding:13px 14px;border-radius:0;width:100%}
+.pola textarea{min-height:120px;resize:vertical}
+.pola input:focus,.pola select:focus,.pola textarea:focus{outline:none;border-color:var(--granat);box-shadow:0 0 0 3px rgba(6,46,108,.15)}
+.form .btn{margin-top:22px}
+.form small{display:block;margin-top:14px;color:var(--szary);font-size:13px}
+.form .ok{display:none;margin-top:16px;padding:14px 16px;background:var(--jasny);font-weight:600;color:var(--granat2)}
+@media (max-width:900px){.kon-uklad{grid-template-columns:1fr}}
+@media (max-width:520px){.pola{grid-template-columns:1fr}}
+
+/* stopka */
+.stopka{background:#03173A;color:#B9C6DD;font-size:15px;padding:44px 0 30px}
+.st-uklad{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:28px}
+.stopka b{color:#fff;display:block;margin-bottom:8px}
+.stopka a{text-decoration:none}
+.stopka a:hover{color:#fff}
+.stopka ul{list-style:none;margin:0;padding:0;display:grid;gap:4px}
+.st-dol{display:flex;flex-wrap:wrap;gap:12px 28px;justify-content:space-between;align-items:center;border-top:1px solid rgba(255,255,255,.12);margin-top:30px;padding-top:20px;font-size:14px}
+@media (max-width:900px){.st-uklad{grid-template-columns:1fr 1fr}.st-firma{grid-column:1/-1}}
+.wylinka-badge{display:inline-flex;align-items:center;gap:.4em;color:inherit;text-decoration:none;font-size:.875em;line-height:1;opacity:.85}
+.wylinka-badge:hover,.wylinka-badge:focus-visible{opacity:1}
+.wylinka-badge:focus-visible{outline:2px solid currentColor;outline-offset:3px;border-radius:2px}
+.wylinka-badge svg{width:18px;height:18px;flex:none;overflow:visible}
+.wylinka-badge b{font-weight:600}
+.wylinka-badge .wy-old{opacity:.45;transform-origin:40px 30px;transition:transform .32s cubic-bezier(.3,.7,.4,1),opacity .32s ease-out}
+.wylinka-badge .wy-pod{opacity:0;transition:opacity .2s ease-out .08s}
+.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:translate(9px,7px) rotate(9deg);opacity:0}
+.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:1}
+@media (prefers-reduced-motion:reduce){.wylinka-badge .wy-old,.wylinka-badge .wy-pod{transition:none}.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:none;opacity:.45}.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:0}}
+
+/* podglad zdjec */
+.lb{position:fixed;inset:0;background:rgba(3,23,58,.94);z-index:100;display:none;align-items:center;justify-content:center;padding:4vw}
+.lb.on{display:flex}
+.lb img{max-width:100%;max-height:86vh;width:auto;height:auto}
+.lb button{position:absolute;top:14px;right:16px;background:none;border:0;color:#fff;font:700 34px/1 Archivo,Arial,sans-serif;cursor:pointer;padding:8px 12px}
+</style>
+</head>
+<body>
+<header class="nag">
+ <div class="k">
+  <a class="logo" href="#" aria-label="KOSPOL Auto Handel - strona główna">
+   <span class="logo-blok"><span class="logo-napis">KOSPOL</span></span>
+   <span class="logo-opis"><b>Auto Handel</b>import · export · transport</span>
+  </a>
+  <nav class="menu" id="menu">
+   <a href="#oferta" class="akt">Oferta</a>
+   <a href="#sprawdzone">Kredyt i leasing</a>
+   <a href="#transport">Transport aut</a>
+   <a href="#firma">O firmie</a>
+   <a href="#kontakt">Kontakt</a>
+  </nav>
+  <a class="btn nag-tel" href="tel:+48601826305"><svg class="tel-znak" viewBox="0 0 20 20" aria-hidden="true"><path d="M5 2h3l1.5 4-2 1.3a10 10 0 0 0 5.2 5.2L14 10.5l4 1.5v3a2 2 0 0 1-2 2A14 14 0 0 1 3 4a2 2 0 0 1 2-2z" fill="currentColor"/></svg>601 826 305</a>
+  <button class="hamb" id="hamb" aria-expanded="false" aria-controls="menu"><i></i>Menu</button>
+ </div>
+</header>
+
+<main>
+<section class="hero">
+ <picture>
+  <source media="(max-width:760px)" srcset="img/hero-tel-800.webp 800w, img/hero-tel-1200.webp 1200w, img/hero-tel-1600.webp 1600w" sizes="100vw">
+  <img src="img/hero-1920.webp" srcset="img/hero-1280.webp 1280w, img/hero-1920.webp 1920w, img/hero-2560.webp 2560w, img/hero-3600.webp 3600w" sizes="100vw" width="3600" height="2400" alt="Rząd białych samochodów dostawczych na placu" fetchpriority="high">
+ </picture>
+ <div class="k">
+  <div class="hero-tresc">
+   <p class="hero-miejsce">Brzeziny, ul. Łódzka 47 · <b>od 1996 roku</b></p>
+   <h1>Samochody dostawcze z Europy Zachodniej<span>Sprawdzone w serwisie, zanim staną na naszym placu</span></h1>
+   <i class="kreska"></i>
+   <p class="hero-opis">Sprowadzamy auta z Niemiec, Belgii, Holandii i Danii. Na miejscu kredyt do 100% wartości auta albo leasing, a do każdego pojazdu komplet dokumentów do rejestracji.</p>
+   <div class="hero-cta">
+    <a class="btn" href="#oferta">Zobacz, co mamy na placu</a>
+    <a class="btn btn-bialy" href="tel:+48601826305"><svg class="tel-znak" viewBox="0 0 20 20" aria-hidden="true"><path d="M5 2h3l1.5 4-2 1.3a10 10 0 0 0 5.2 5.2L14 10.5l4 1.5v3a2 2 0 0 1-2 2A14 14 0 0 1 3 4a2 2 0 0 1 2-2z" fill="currentColor"/></svg>601 826 305</a>
+   </div>
+  </div>
+ </div>
+ <i class="pas" aria-hidden="true"></i>
+</section>
+
+<section class="sek sek-szara" id="oferta">
+ <div class="k">
+  <div class="naglowek">
+   <div>
+    <h2>Co sprzedajemy</h2>
+    <i class="kreska"></i>
+   </div>
+   <p>Najwięcej u nas samochodów dostawczych, ale na placu przy Łódzkiej 47 znajdą Państwo też auta osobowe, ciężarowe i domki holenderskie z transportem na miejsce.</p>
+  </div>
+  <div class="oferta">
+   <a class="kafel" href="#kontakt">
+    <div class="kafel-foto"><img src="img/zolty-van.webp" width="500" height="334" alt="Żółte i białe samochody dostawcze ustawione w rzędzie" loading="lazy"></div>
+    <div class="kafel-tresc">
+     <h3>Samochody dostawcze</h3>
+     <p>Furgony, busy i auta z zabudową, sprowadzone z Europy Zachodniej i sprawdzone w autoryzowanym serwisie producenta.</p>
+     <span class="dalej"><i></i>Zapytaj o auto</span>
+    </div>
+   </a>
+   <a class="kafel" href="#kontakt">
+    <div class="kafel-foto"><img src="img/plac-droga.webp" width="500" height="335" alt="Plac KOSPOL przy drodze z samochodami osobowymi, dostawczymi i ciężarowymi" loading="lazy"></div>
+    <div class="kafel-tresc">
+     <h3>Osobowe i ciężarowe</h3>
+     <p>Sprowadzamy także samochody osobowe i ciężarowe. Kupujący dostaje komplet dokumentów do pierwszej rejestracji.</p>
+     <span class="dalej"><i></i>Zapytaj o auto</span>
+    </div>
+   </a>
+   <a class="kafel" href="#kontakt">
+    <div class="kafel-foto"><img src="img/z-gory.webp" width="800" height="533" alt="Plac KOSPOL z góry: samochody dostawcze i rzędy domków holenderskich" loading="lazy"></div>
+    <div class="kafel-tresc">
+     <h3>Domki holenderskie</h3>
+     <p>Domki holenderskie i campingowe na placu w Brzezinach. Domek kupiony u nas przywozimy na miejsce własnym transportem.</p>
+     <span class="dalej"><i></i>Zapytaj o domek</span>
+    </div>
+   </a>
+  </div>
+ </div>
+</section>
+
+<section class="sek sprawdzone" id="sprawdzone">
+ <div class="k spr-uklad">
+  <div>
+   <div class="naglowek">
+    <div>
+     <h2>Zanim auto stanie na placu</h2>
+     <i class="kreska"></i>
+    </div>
+   </div>
+   <ul class="lista">
+    <li><b>Kontrola w autoryzowanym serwisie</b><span>Każdy pojazd przed sprzedażą sprawdza serwis producenta.</span></li>
+    <li><b>Komplet dokumentów</b><span>Wszystko, czego potrzeba do pierwszej rejestracji sprowadzonego auta.</span></li>
+    <li><b>Kredyt do 100% wartości</b><span>Finansowanie załatwiane na miejscu, w salonie.</span></li>
+    <li><b>Leasing</b><span>Auto dla firmy w systemie leasingowym.</span></li>
+    <li><b>Pomoc w odprawie</b><span>Pomagamy w odprawie ostatecznej pojazdów sprowadzonych do Polski.</span></li>
+   </ul>
+  </div>
+  <figure class="salon">
+   <img src="img/salon.webp" width="800" height="535" alt="Salon KOSPOL w Brzezinach: lada obsługi i strefa dla klientów" loading="lazy">
+   <figcaption>Salon przy ul. Łódzkiej 47 w Brzezinach</figcaption>
+  </figure>
+ </div>
+</section>
+
+<section class="sek" id="transport">
+ <div class="k trasa-uklad">
+  <div class="trasa-tekst">
+   <h2>Auto kupione za granicą? Przywieziemy je</h2>
+   <i class="kreska"></i>
+   <p style="margin-top:26px">Przewozimy samochody kupione przez klientów w Europie Zachodniej. Nasz tabor zabiera prawie każdy pojazd, a po przyjeździe pomagamy w odprawie ostatecznej.</p>
+   <p>Te same trasy znamy z własnego importu: od lat sprowadzamy auta od zagranicznych kontrahentów.</p>
+   <p class="licencja">Posiadamy wymagane zezwolenia i licencje na transport drogowy pojazdów i maszyn rolniczych.</p>
+  </div>
+  <div class="droga">
+   <ol>
+    <li><span>Niemcy</span></li>
+    <li><span>Belgia</span></li>
+    <li><span>Holandia</span></li>
+    <li><span>Dania</span></li>
+    <li class="cel"><span>Brzeziny<small>ul. Łódzka 47, woj. łódzkie</small></span></li>
+   </ol>
+   <figure class="lawety">
+    <img src="img/lawety.webp" width="600" height="175" alt="Ciężarówki KOSPOL przed salonem w Brzezinach" loading="lazy">
+    <figcaption>Tabor przed salonem w Brzezinach</figcaption>
+   </figure>
+  </div>
+ </div>
+</section>
+
+<section class="sek sek-szara plac" id="firma">
+ <div class="k">
+  <div class="firma-uklad">
+   <div class="firma-tekst">
+    <h2>Od 1996 roku w Brzezinach</h2>
+    <i class="kreska"></i>
+    <p style="margin-top:26px">KOSPOL Auto Handel działa od 1 października 1996 roku. Od początku sprowadzamy samochody z Europy Zachodniej, dzięki stałym kontaktom z zagranicznymi kontrahentami w Niemczech, Belgii, Holandii i Danii.</p>
+    <p>Auta sprzedajemy z własnego placu i salonu przy ul. Łódzkiej 47. Można je obejrzeć na miejscu i od razu załatwić finansowanie.</p>
+   </div>
+   <p class="cytat">Wszystkie pojazdy przed sprzedażą są poddawane kontroli w autoryzowanym serwisie producenta.</p>
+  </div>
+  <div class="naglowek galeria-nag">
+   <h3>Plac i salon przy Łódzkiej 47</h3>
+   <div class="strzalki">
+    <button type="button" data-kier="-1" aria-label="Poprzednie zdjęcie"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M12.5 4 6.5 10l6 6" fill="none" stroke="currentColor" stroke-width="2.4"/></svg></button>
+    <button type="button" data-kier="1" aria-label="Następne zdjęcie"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="m7.5 4 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.4"/></svg></button>
+   </div>
+  </div>
+  <div class="suwak" id="galeria">
+   <figure><img src="img/plac-zolte.webp" width="500" height="335" alt="Salon KOSPOL i żółte samochody dostawcze przy ogrodzeniu" loading="lazy"></figure>
+   <figure><img src="img/salon.webp" width="800" height="535" alt="Wnętrze salonu KOSPOL" loading="lazy"></figure>
+   <figure><img src="img/plac-droga.webp" width="500" height="335" alt="Plac z samochodami widziany z drogi" loading="lazy"></figure>
+   <figure><img src="img/zolty-van.webp" width="500" height="334" alt="Rząd samochodów dostawczych na placu" loading="lazy"></figure>
+   <figure><img src="img/plac-domki.webp" width="500" height="335" alt="Plac KOSPOL od strony drogi z domkiem holenderskim" loading="lazy"></figure>
+   <figure><img src="img/z-gory.webp" width="800" height="533" alt="Plac KOSPOL z lotu ptaka" loading="lazy"></figure>
+  </div>
+ </div>
+</section>
+
+<section class="sek kontakt" id="kontakt">
+ <div class="k kon-uklad">
+  <div>
+   <h2>Zapraszamy na plac</h2>
+   <i class="kreska"></i>
+   <div class="dane">
+    <div><span>Telefon</span><a class="duzy" href="tel:+48601826305">601 826 305</a></div>
+    <div><span>E-mail</span><a href="#kontakt" onclick="return false">kospol@kospol.eu</a></div>
+    <div><span>Adres</span>KOSPOL Auto Handel Sławomir Kosowski<br>ul. Łódzka 47, 95-060 Brzeziny, woj. łódzkie</div>
+    <div><span>Fax</span>46 874 11 69</div>
+   </div>
+   <div class="mapa" id="mapa" data-src="https://maps.google.com/maps?q=%C5%81%C3%B3dzka%2047%2C%2095-060%20Brzeziny&amp;z=14&amp;output=embed">Mapa dojazdu: ul. Łódzka 47, Brzeziny</div>
+  </div>
+  <form class="form" id="formularz" novalidate>
+   <h3>Zapytaj o auto albo domek</h3>
+   <p>Wystarczy kilka słów, a oddzwonimy z propozycją z placu albo z importu.</p>
+   <div class="pola">
+    <label>Imię<input type="text" name="imie" autocomplete="given-name"></label>
+    <label>Telefon<input type="tel" name="tel" autocomplete="tel"></label>
+    <label class="cala">Interesuje mnie
+     <select name="temat">
+      <option>Samochód dostawczy</option>
+      <option>Samochód osobowy</option>
+      <option>Samochód ciężarowy</option>
+      <option>Domek holenderski</option>
+      <option>Transport auta z zagranicy</option>
+     </select>
+    </label>
+    <label class="cala">Wiadomość<textarea name="wiad" placeholder="Np. furgon do 3,5 t, wysoki dach, budżet do..."></textarea></label>
+   </div>
+   <button class="btn btn-granat" type="submit">Wyślij zapytanie</button>
+   <p class="ok" id="ok">To podgląd strony, formularz zacznie wysyłać zapytania na Państwa e-mail w docelowej wersji.</p>
+   <small>Wysyłając formularz, zgadzam się na kontakt w sprawie zapytania.</small>
+  </form>
+ </div>
+</section>
+</main>
+
+<footer class="stopka">
+ <div class="k">
+  <div class="st-uklad">
+   <div class="st-firma">
+    <b>KOSPOL Auto Handel</b>
+    Sławomir Kosowski<br>ul. Łódzka 47, 95-060 Brzeziny<br>NIP 833-100-29-36
+   </div>
+   <div>
+    <b>Oferta</b>
+    <ul><li><a href="#oferta">Samochody dostawcze</a></li><li><a href="#oferta">Osobowe i ciężarowe</a></li><li><a href="#oferta">Domki holenderskie</a></li></ul>
+   </div>
+   <div>
+    <b>Usługi</b>
+    <ul><li><a href="#sprawdzone">Kredyt i leasing</a></li><li><a href="#transport">Transport aut</a></li><li><a href="#sprawdzone">Pomoc w odprawie</a></li></ul>
+   </div>
+   <div>
+    <b>Kontakt</b>
+    <ul><li><a href="tel:+48601826305">601 826 305</a></li><li>kospol@kospol.eu</li><li><a href="#kontakt">Dojazd</a></li></ul>
+   </div>
+  </div>
+  <div class="st-dol">
+   <span>© 2026 KOSPOL Auto Handel · Polityka prywatności · Zdjęcie na pierwszym ekranie poglądowe</span>
+   <a class="wylinka-badge" href="https://wylinka.pl/?utm_source=kospol.eu&amp;utm_medium=stopka&amp;utm_campaign=wykonanie" rel="noopener" title="Strona wykonana przez Wylinka"><svg viewBox="0 0 64 64" aria-hidden="true" focusable="false" fill="currentColor"><path d="M9.8 22.8l-1.2-7.9 2.2-3.7 15.5 4.6-.5 1.5-7.2 5.5 4.7 15.6 5-15.6 7 0 4.1 12.7-4.2-.9-2.6 1.8-.8-2.2-5.3 15.6-4.3 0 .4 .2-2.1 2.8-1.3-1.1 1.1-1.4-3.1 .2-.1-1.7 2.2-.1-5.7-16.5-4.8 .6-.8 3.1 0 .5-.3 .5 .8 2.2-1.6 .5-.4-1.3-.8 1.6-1.5-.8 .8-1.6-1.4 .6-.6-1.6 2.3-.8 .2-.4 1.3-4.8 5.9-.8-2.4-6.9zM15.2 13.7l-.1-.4-.4 .8-.1 .8 .1 1 .1 .4 .3 .7 .3-.9 .1-.7 0-.8z"/><path class="wy-pod" d="M37.1 49.8l-4.5-13.3 2.6-1.8 4.2 .9 .9 2.8 3-9.7 0-.5 .1-.8 3.2-8.4 .5-1 .6-1 .9-1.1 1.3-1 1.1-.7 1.4-.5 1.4-.3 .7 0 .9 0 1.2 .3 1.4 .6 .8 .5 .7 .7 .6 .7 .5 .9 .3 .9 .1 .9 0 .8-.2 .9-.5 .9-.5 .6-.7 .5-.7 .3-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.6-.1-.6-.3-.7-.4-.5-.4-.4-.5-.3-.6-.3-.7 0-.7 .1-.6 .1-.5 .4-.5 .5-.3 .5-.2 .7-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1-2.1-2.8 .4-.2z"/><path class="wy-old" d="M40.8 50l.4-.2-4.1 0-4.2-12.5 2.5-1.7 4.3 .9 .6 1.9 .6-1.6 0-.3 2.4-7.8 0-.5 .1-.8 3.2-8.4 .4-.8 .6-.9 .9-1.2 .9-.9 1.3-.8 1.4-.6 1.2-.3 1.4-.1 1.3 .1 .6 .2 .8 .3 1.1 .6 .9 .7 .7 .9 .5 .9 .3 .9 .1 1.1-.1 .9-.3 .9-.4 .7-.6 .7-.6 .4-.6 .2-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.5-.1-.6-.2-.6-.3-.5-.4-.5-.5-.3-.6-.3-.7-.1-.6 0-.6 .1-.6 .3-.6 .5-.3 .4-.2 .5-.1 .5-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1zM49.6 17.1l.6 1.7-1.5 1.9 .4 .4 1.8-2.1-.7-2.1zM48.1 28.3l.5 1.8-1.7 1.8 .4 .4 1.9-2-.6-2.2zM37.9 41.7l1.7-1.5-.4-.4-1.7 1.4zM42.6 38.7l-1.5 2.8 1.1 2-1.3 2.6 .5 .2 1.5-2.8-1.1-2 1.4-2.5z"/></svg><span>wykonanie: <b>Wylinka</b></span></a>
+  </div>
+ </div>
+</footer>
+
+<div class="lb" id="lb" role="dialog" aria-label="Podgląd zdjęcia"><button type="button" aria-label="Zamknij">×</button><img alt=""></div>
+
+<script>
+(function(){
+ var b=document.body,h=document.getElementById('hamb');
+ h.addEventListener('click',function(){var o=b.classList.toggle('otwarte');h.setAttribute('aria-expanded',o)});
+ document.querySelectorAll('.menu a').forEach(function(a){a.addEventListener('click',function(){b.classList.remove('otwarte');h.setAttribute('aria-expanded',false)})});
+ // przeciaganie mysza w suwakach
+ document.querySelectorAll('.suwak,.oferta').forEach(function(s){
+  var x0,l0,ruch=false,wcisniety=false;
+  s.addEventListener('mousedown',function(e){wcisniety=true;ruch=false;x0=e.pageX;l0=s.scrollLeft;e.preventDefault()});
+  window.addEventListener('mousemove',function(e){if(!wcisniety)return;var d=e.pageX-x0;if(Math.abs(d)>5){ruch=true;s.classList.add('ciag')}s.scrollLeft=l0-d});
+  window.addEventListener('mouseup',function(){if(!wcisniety)return;wcisniety=false;s.classList.remove('ciag')});
+  s.addEventListener('click',function(e){if(ruch){e.preventDefault();e.stopPropagation();ruch=false}},true);
+ });
+ var g=document.getElementById('galeria');
+ document.querySelectorAll('.strzalki button').forEach(function(btn){btn.addEventListener('click',function(){g.scrollBy({left:btn.dataset.kier*g.clientWidth*.6,behavior:'smooth'})})});
+ var lb=document.getElementById('lb'),li=lb.querySelector('img');
+ g.querySelectorAll('img').forEach(function(i){i.addEventListener('click',function(){li.src=i.currentSrc||i.src;li.alt=i.alt;lb.classList.add('on')})});
+ lb.addEventListener('click',function(){lb.classList.remove('on')});
+ document.addEventListener('keydown',function(e){if(e.key==='Escape'){lb.classList.remove('on');b.classList.remove('otwarte')}});
+ var f=document.getElementById('formularz');
+ f.addEventListener('submit',function(e){e.preventDefault();document.getElementById('ok').style.display='block'});
+ var m=document.getElementById('mapa');
+ if('IntersectionObserver' in window){var io=new IntersectionObserver(function(w){if(w[0].isIntersecting){m.innerHTML='<iframe title="Mapa dojazdu: ul. Łódzka 47, Brzeziny" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="'+m.dataset.src+'"></iframe>';io.disconnect()}},{rootMargin:'300px'});io.observe(m)}
+ // aktywna pozycja menu
+ var sek=[].slice.call(document.querySelectorAll('main section[id]')),linki=document.querySelectorAll('.menu a');
+ function akt(){var y=scrollY+120,id='oferta';sek.forEach(function(s){if(s.offsetTop<=y)id=s.id});linki.forEach(function(a){a.classList.toggle('akt',a.getAttribute('href')==='#'+id)})}
+ addEventListener('scroll',akt,{passive:true});
+})();
+</script>
+</body>
+</html>
